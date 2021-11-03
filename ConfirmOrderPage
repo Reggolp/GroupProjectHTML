@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <!--
+    Group Assignment
+    Author: Tyler Plogger, Peter Bergstorm, Matt Pilgrim
+    Date: 11/3/21
+    Filename: cofirmOrderPage.html
+  -->
+  <title>Minecraft Fans Trivia</title>
+  <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-
+  <header>
+		<h1>Minecraft Fans</h1>
+		<nav>
+			<ul>
+				<li><a href="homePage.html">Home</a></li>
+				<li><a href="triviaPage.html">Trivia</a></li>
+				<li><a href="merchPage.html">Merch</a></li>
+			</ul>
+		</nav>
+  </header>
 </body>
 
 </html>
