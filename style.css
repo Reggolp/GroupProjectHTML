@@ -1,5 +1,44 @@
 /*Please make sure to make comments for each different part you're styling */
 
-/* Head Style */
+/* Html Style */
+html{
 
-/*Body Style */
+}
+
+/* Body Style */
+body{
+	
+}
+
+/* Header Style */
+img#fanslogo{
+	width:100px;
+	height: 100px;
+	float:left;
+}
+h1{
+	float:center;
+	text-align:center;
+}
+/* Nav List Style */
+ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    background: #cacaca;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
+li:nth-child(1){
+	padding-left:60px;
+}
+li:nth-child(3){
+	padding-right:60px;
+}
