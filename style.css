@@ -1,14 +1,14 @@
 /*Please make sure to make comments for each different part you're styling */
-
-/* Html Style */
 /* Html Style */
 html{
-
+	background: green;
+	width: 70%;
+	margin: 0 auto; 
 }
 
 /* Body Style */
 body{
-	
+	background: white;
 }
 
 /* Header Style */
