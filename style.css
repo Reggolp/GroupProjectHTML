@@ -9,6 +9,17 @@ html{
 /* Body Style */
 body{
 	background: white;
+	display:block;
+}
+img#cover{
+	float:left;
+	display:block;
+}
+img#build{
+	float:right;
+}
+p{
+	max-width:50%;
 }
 
 /* Header Style */
@@ -47,4 +58,14 @@ li:nth-child(1){
 }
 li:nth-child(3){
 	padding-right:60px;
+}
+
+/* Footer Style */
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 70%;
+	background-color: red;
+  color: white;
+  text-align: center;
 }
