@@ -39,3 +39,42 @@ li:nth-child(3){padding-right:60px;}
 
 /* Footer Style */
 footer{bottom: 0;background-color: red;color: white;text-align: center;}
+
+/* Merch Page Styling */
+#merchTable img{
+	float: left;
+	width: 300px;
+	height: 300px;
+}
+#merchTable td{
+	background: white;
+	text-align: center;
+	margin: 2px;
+	border: solid black 1px;
+}
+/* Merch Links Styling*/
+#pageLinks{
+	float: right;
+	
+}
+#pageLinks li{
+	 margin: 5px;
+   display: block;
+   float: left;
+   height: 40px;
+   letter-spacing: 3px;
+   line-height: 40px;
+   margin-left: 0%;
+   margin-right: 2%;
+   width: 12%;
+}
+#merchLinks{
+	margin: 20px;
+}
+#merchLinks li{
+	background: green;
+	padding: 10px;
+	margin: 10px;
+	border: solid black 1px;
+	float: left;
+}
