@@ -1,71 +1,41 @@
 /*Please make sure to make comments for each different part you're styling */
-/* Html Style */
-html{
-	background: green;
-	width: 70%;
-	margin: 0 auto; 
+
+body {
+  background: #555;
+	height:100%;
+	margin: 0;
 }
+
+.content {
+  max-width: 100%;
+  background: white;
+	height:100%;
+}
+
+/* Html Style */
+html{background: green;width: 50%; margin: 0 auto; height:100%;}
 
 /* Body Style */
-body{
-	background: white;
-	display:block;
-}
-img#cover{
-	float:left;
-	display:block;
-}
-img#build{
-	float:right;
-}
-p{
-	max-width:50%;
-}
+img#cover{float:left;display:block;}
+img#build{float:left;}
+p{}
+aside{position:static;max-height:200px;}
 
 /* Header Style */
-img#fanslogo{
-	width:100px;
-	height: 100px;
-	float:left;
-}
-h1{
-	float:center;
-	text-align:center;
-}
+img#fanslogo{width:100px;float:left;}
+h1{text-align:center; padding: 0; margin; 0 auto;}
+
 /* Nav List Style */
-ul {
-    display: flex;
-    align-items: stretch; /* Default */
-    justify-content: space-between;
-    width: 100%;
-    background-image: url("navbackground.jpg");
-		background-repeat: repeat;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: block;
-    flex: 0 1 auto; /* Default */
-		list-style-type: none;
-}
+ul{display: flex;align-items: stretch;justify-content: space-between;width: 100%;
+background-image: url("navbackground.jpg");background-repeat: repeat;margin: 0;
+padding: 0;}
+li{display: block;flex: 0 1 auto;list-style-type: none;}
 a:link { color: white; text-decoration: none}
 a:visited { color: white; text-decoration: none}
 a:hover { color: white; text-decoration: underline}
 a:active { color: white; text-decoration: none}
-
-li:nth-child(1){
-	padding-left:60px;
-}
-li:nth-child(3){
-	padding-right:60px;
-}
+li:nth-child(1){padding-left:60px;}
+li:nth-child(3){padding-right:60px;}
 
 /* Footer Style */
-footer{
-	position: fixed;
-	bottom: 0;
-	width: 70%;
-	background-color: red;
-  color: white;
-  text-align: center;
-}
+footer{bottom: 0;background-color: red;color: white;text-align: center;}
