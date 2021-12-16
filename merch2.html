@@ -3,49 +3,114 @@
 <html>
 
 <head>
-<meta charset='utf-8'/>
-<title>Toys</title>
-<link href="style.css" rel="stylesheet"/>
+	<meta charset='utf-8'/>
+	<title>Toys</title>
+	<link href="style.css" rel="stylesheet"/>
+
 
 </head>
 
 <body>
 
-<header>      
-	<nav id="pageLinks">
-		<ul>
-			<li><a href='HomePage.html'>Home</a></li>
-      <li><a href="#">Order</a></li>
-      <li><a href="#">Trivia</a></li>
-    </ul>
-   </nav>
-	 <nav id="merchLinks">
+	<header>
+		<img src="fanslogo.jpg" id="fanslogo">
+		<h1>Minecraft Fans</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="trivia.html">Trivia</a></li>
+				<li><a href="merch.html">Merch</a></li>
+			</ul>
+		</nav>
+	</header>
+	<nav id="merchLinks">
 		<ul>
 			<li><a href='merch.html'>Clothing</a></li>
-      <li><a href='merch2.html'>Toys</a></li>
-      <li><a href='merch3.html'>Collectibles</a></li>
-    </ul>
-   </nav>
-</header>
-	<h2>Toys for when you're not online!</h2>
+			<li><a href='merch2.html'>Toys</a></li>
+			<li><a href='merch3.html'>Collectibles</a></li>
+		</ul>
+	</nav>
+	<h2 style='color:white;'>Toys for when you're not online!</h2>
+	<table id='merchTable'>
 		<tr>
 			<td><img src='minecraftLego.jpeg'></td>
 			<td><img src='minecraftPlush.jpg'></td>
 		</tr>
 		<tr>
-			<td>Minecraft Village Lego Set $50</td>
-			<td>Plush Steve $10</td>
+			<td>
+				<h4>Minecraft Village Lego Set $50</h4>
+				<table id="toyForm1">		
+					<label>Quantity</label>
+					<select name="tqty1" id="tqty1">
+						<option value="0" selected></option>0<option value="1">1</option>
+						<option value="2">2</option><option value="3">3</option>
+						<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+						<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+						<option value="10">10</option>
+					</select> 
+				</table>
+				<input type="submit" id="buttonAdd" value="add to cart" />
+			</td>
+			<td>
+				<h4>Plush Steve $10</h4>
+				<table id="toyForm1">		
+					<label>Quantity</label>
+					<select name="tqty2" id="tqty2">
+						<option value="0" selected></option>0<option value="1">1</option>
+						<option value="2">2</option><option value="3">3</option>
+						<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+						<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+						<option value="10">10</option>
+					</select> 
+				</table>
+				<input type="submit" id="buttonAdd" value="add to cart" />
+			</td>
 		</tr>
 		<tr>
 			<td><img src='minecraftSword.jpg'></td>
 			<td><img src='minecraftPick.jpg'></td>
 		</tr>
 		<tr>
-			<td>Enchanted Sword $20</td>
-			<td>Diamond Pickaxe $20</td>
+			<td>
+				<h4>Enchanted Sword $20</h4>
+				<table id="toyForm1">		
+					<label>Quantity</label>
+					<select name="tqty3" id="tqty3">
+						<option value="0" selected></option>0<option value="1">1</option>
+						<option value="2">2</option><option value="3">3</option>
+						<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+						<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+						<option value="10">10</option>
+					</select> 
+				</table>
+				<input type="submit" id="buttonAdd" value="add to cart" />
+			</td>
+			<td>
+				<h4>Diamond Pickaxe $20</h4>
+				<table id="toyForm1">		
+					<label>Quantity</label>
+					<select name="tqty4" id="tqty4">
+						<option value="0" selected></option>0<option value="1">1</option>
+						<option value="2">2</option><option value="3">3</option>
+						<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+						<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+						<option value="10">10</option>
+					</select> 
+				</table>
+				<input type="submit" id="buttonAdd" value="add to cart" />
+			</td>
 		</tr>
 	</table>
-<footer>The footer will go here</footer>
+<footer>
+	<nav>
+		<ul>
+			<li><a href='HomePage.html'>Home</a></li>
+			<li><a href="order.html">Order</a></li>
+			<li><a href="TriviaPage.html">Trivia</a></li>
+		</ul>
+    </nav>
+	<h3>Created by: Peter Bergstrom, Matt Pilgrim, and Tyler Plogger </h3>
+</footer>
 
 </body>
 </html>

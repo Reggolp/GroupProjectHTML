@@ -1,41 +1,146 @@
 /*Please make sure to make comments for each different part you're styling */
 
 body {
-  background: #555;
-	height:100%;
+	background: #555;
+	height: auto;
 	margin: 0;
 }
 
 .content {
-  max-width: 100%;
-  background: white;
+	max-width: 100%;
+	background: white;
 	height:100%;
 }
 
 /* Html Style */
-html{background: green;width: 50%; margin: 0 auto; height:100%;}
+html{
+	background: green;
+	width: 50%;
+	margin: 0 auto;
+	height:100%;
+	font-family: sans-serif;
+}
 
 /* Body Style */
-img#cover{float:left;display:block;}
-img#build{float:left;}
-p{}
-aside{position:static;max-height:200px;}
+img#cover{
+	float:left;
+	display:block;
+}
+img#build{
+	float:left;
+}
+p{
+	
+}
+aside{
+	position:static;
+	max-height:200px;
+}
 
 /* Header Style */
-img#fanslogo{width:100px;float:left;}
-h1{text-align:center; padding: 0; margin; 0 auto;}
+img#fanslogo{
+	width:100px;
+	float:left;
+}
+h1{
+	text-align:center;
+	padding: 0; 
+	margin: 0 auto;
+}
+h3, h2{
+	color: white;
+}
 
 /* Nav List Style */
-ul{display: flex;align-items: stretch;justify-content: space-between;width: 100%;
-background-image: url("navbackground.jpg");background-repeat: repeat;margin: 0;
-padding: 0;}
-li{display: block;flex: 0 1 auto;list-style-type: none;}
-a:link { color: white; text-decoration: none}
-a:visited { color: white; text-decoration: none}
-a:hover { color: white; text-decoration: underline}
-a:active { color: white; text-decoration: none}
-li:nth-child(1){padding-left:60px;}
-li:nth-child(3){padding-right:60px;}
+ul{ 
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 100%;
+	background-image: url("navbackground.jpg");
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: block;
+	flex: 0 1 auto;
+	list-style-type: none;
+}
+a:link { 
+	color: white; 
+	text-decoration: none
+}
+a:visited { 
+	color: white; 
+	text-decoration: none
+}
+a:hover { 
+	color: white; 
+	text-decoration: underline
+}
+a:active { 
+	color: white; 
+	text-decoration: none
+}
+li:nth-child(1){
+	padding-left:60px;
+}
+li:nth-child(3){
+	padding-right:60px;
+}
 
 /* Footer Style */
-footer{bottom: 0;background-color: red;color: white;text-align: center;}
+footer{
+	bottom: 0;
+	background-color: red;
+	color: white;
+	text-align: center;
+	background-image: url('footerBackground.png');
+}
+
+/* Merch Page Styling */
+#merchTable img{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+#merchTable td{
+	background: white;
+	text-align: center;
+	margin: 2px;
+	border: double 2px;
+	width: 50%;
+	font-weight: bold;
+}
+/* Merch Links Styling*/
+#pageLinks{
+	float: right;
+	
+}
+#pageLinks li{
+	 margin: 5px;
+   display: block;
+   float: left;
+   height: 40px;
+   letter-spacing: 3px;
+   line-height: 40px;
+   margin-left: 0%;
+   margin-right: 2%;
+   width: 12%;
+}
+#merchLinks{
+	margin: 20px;
+}
+#merchLinks li{
+	background: green;
+	padding: 12px 28px;
+	margin: 10px;
+	border: solid black 1px;
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+#merchLinks li:hover{
+	background: SaddleBrown;
+}

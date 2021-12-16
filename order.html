@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<head>
+
+<!--
+    Group Assignment
+    Author: Tyler Plogger, Peter Bergstorm, Matt Pilgrim
+    Date: 11/3/21
+    Filename: order_form.html
+-->
+
+	<title>Minecraft Order Form</title>
+	<meta charset="utf-8" />
+    <link href="base.css" rel="stylesheet"  />
+    <link href="style.css" rel="stylesheet"  />
+	<link href="style2.css" rel="stylesheet" />
+    <script src="order.js"></script>
+</head>
+<body>
+	<header>
+		<img src="fanslogo.jpg" id="fanslogo">
+		<h1>Minecraft Fans</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="trivia.html">Trivia</a></li>
+				<li><a href="merch.html">Merch</a></li>
+			</ul>
+		</nav>
+    </header>
+	<section id="paySection">
+        <h1>Payment Form</h1>
+      
+        <form id="order" name="order">       
+			<table id="orderTable">
+			<tr>
+                <td>
+					<input type="text" name="clothing1" id="clothing1" readonly  /> 
+					X
+					<input type="text" name="cqty1" id="cqty1"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="clothing2" id="clothing2" readonly  /> 
+					X
+					<input type="text" name="cqty2" id="cqty2"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="clothing3" id="clothing3" readonly  /> 
+					X
+					<input type="text" name="cqty3" id="cqty3"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="clothing4" id="clothing4" readonly  /> 
+					X
+					<input type="text" name="cqty4" id="cqty4"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="toy1" id="toy1" readonly  /> 
+					X
+					<input type="text" name="tqty1" id="tqty1"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="toy2" id="toy2" readonly  /> 
+					X
+					<input type="text" name="tqty2" id="tqty2"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="toy3" id="toy3" readonly  /> 
+					X
+					<input type="text" name="tqty3" id="tqty3"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="toy4" id="toy4" readonly  /> 
+					X
+					<input type="text" name="tqty4" id="tqty4"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="collect1" id="collect1" readonly  /> 
+					X
+					<input type="text" name="qty1" id="qty1"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="collect2" id="collect2" readonly  /> 
+					X
+					<input type="text" name="qty2" id="qty2"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="collect3" id="collect3" readonly  /> 
+					X
+					<input type="text" name="qty3" id="qty3"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			<tr>
+                <td>
+					<input type="text" name="collect4" id="collect4" readonly  /> 
+					X
+					<input type="text" name="qty4" id="qty4"  readonly />                                              
+                </td>                
+                <td>
+					<input type="text" name="orderCost" id="orderCost" size="10"  readonly />
+                </td>
+            </tr>
+			
+			
+			
+            <!-- Add shipping selection here     -->
+			
+			
+			
+            <tr>
+                <td class="totals">Subtotal</td>
+                <td class="outcell">
+					<input type="text" name="subTotal" id="subTotal" size="10" readonly  />
+                </td>
+            </tr>
+
+            <tr>
+                <td class="totals">Tax (5%)</td>
+                <td>
+					<input type="text" name="tax" id="tax" size="10" readonly  />
+                </td>
+            </tr>
+
+            <tr>
+                <td class="totals">Total</td>
+                <td>
+					<input type="text" name="total" id="total" size="10" readonly  />
+                </td>
+            </tr>
+            </table>
+		</form>      
+
+		<form id="credit" name="credit" method="post" action="co_final.html">         
+			<fieldset id="creditcard">
+				<legend>Credit Information</legend>
+
+				<label for="cardHolder">Card Holder*</label>
+				<input name="cardHolder" id="cardHolder" required type="text" />              
+
+				<fieldset id="cards">
+					<label class="cardLabel">Credit Company*</label>
+					<label class="cardLabel">
+						<input name="company" value="amex" type="radio" required />
+						<img src="co_amex.png" alt="American Express" />
+					</label>
+					<label class="cardLabel">               
+						<input name="company" value="discover" type="radio" />
+						<img src="co_discover.png" alt="Discover" />
+					</label>
+					<label class="cardLabel">                  
+						<input name="company" value="master" type="radio"  />
+						<img src="co_master.png" alt="MasterCard" />
+					</label>
+					<label class="cardLabel">                  
+						<input name="company" value="visa" type="radio"  />
+						<img src="co_visa.png" alt="Visa" />
+					</label>
+				</fieldset>          
+
+				<label for="cardNumber">Credit Card Number*</label>
+				<input name="cardNumber" id="cardNumber" required type="text"
+					pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"/>
+
+				<label for="expDate">Expiration Date*</label>
+				<input name="expDate" id="expDate" required type="text" placeholder="mm/yyyy" />
+
+				<label for="cvc">CVC*</label>
+				<input name="cvc" id="cvc" required pattern="^\d{3,4}$" type="text"/>
+            </fieldset>
+
+			<p id="footnote">* - Required Item</p>        
+			<input type="submit" id="subButton" value="Submit Payment" />         
+		</form>
+
+    </section>
+
+</body>
+
+<footer>
+	<p>Created by: Peter Bergstrom, Matt Pilgrim, and Tyler Plogger</p>
+</footer>
