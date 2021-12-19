@@ -1,8 +1,57 @@
 /* Please make a comment on each part that you are styling */
+#itemTable td{
+	border: solid 1px;
+}
+#itemTable{
+	background: beige;
+	text-align: center;
+	margin: 2px;
+	padding: 15px;
+	width: 100%;
+	float: right;
+}
+#orderTable{
+	background: beige;
+	text-align: center;
+	margin: 2px;
+	padding: 15px;
+	float: right;
+}
+#shipping{
+	clear: both;
+	float: left;
+}
 
-section{
+#items{
+	display: block;
+	float: right;	
+	width: 40%;
+}
+#order{
+	clear: both;
+	float: right;
+}
+#buttonAdd{
+	clear: both;
+}
+#quip{
 	text-align: center;
 }
-.totals{
-	
+form{
+	display: table;
+}
+label#order{
+	display: table-cell;
+}
+input#order{
+	display: table-cell;
+}
+h1{
+	font-size: 1.25em;
+}
+label{
+	font-weight: bold;
+}
+footer{
+	clear: both;
 }

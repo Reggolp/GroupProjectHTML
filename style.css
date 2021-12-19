@@ -15,7 +15,7 @@ body {
 /* Html Style */
 html{
 	background: green;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 	height:100%;
 	font-family: sans-serif;
@@ -28,9 +28,6 @@ img#cover{
 }
 img#build{
 	float:left;
-}
-p{
-	
 }
 aside{
 	position:static;
@@ -89,6 +86,10 @@ li:nth-child(1){
 li:nth-child(3){
 	padding-right:60px;
 }
+.nav_menu{
+	font-size: 2em;
+	font-weight: bold;
+}
 
 /* Footer Style */
 footer{
@@ -97,21 +98,29 @@ footer{
 	color: white;
 	text-align: center;
 	background-image: url('footerBackground.png');
+	padding: 5px;
 }
 
 /* Merch Page Styling */
-#merchTable img{
+#itemTable img{
 	float: left;
 	width: 100%;
 	height: 100%;
 }
-#merchTable td{
+#itemTable td{
 	background: white;
 	text-align: center;
 	margin: 2px;
 	border: double 2px;
 	width: 50%;
 	font-weight: bold;
+}
+#buttonAdd{
+	display: grid;
+	margin: auto;
+	width: 50%;
+	height: 40px;
+	
 }
 /* Merch Links Styling*/
 #pageLinks{
@@ -143,4 +152,73 @@ footer{
 }
 #merchLinks li:hover{
 	background: SaddleBrown;
+}
+
+a#navicon{
+	display: none;
+}
+nav ul.nav_menu {
+	list-style:none;
+}
+@media all and (max-width: 550px){
+	html{
+		width: 100%;
+	}
+	header h1{
+		font-size: 2em;
+	}
+	#fanslogo{
+		display: none;
+	}
+	a#navicon{
+		display: block;
+	}
+	nav ul.nav_menu{
+		display: none;
+	}
+	a#navicon:hover+ul, nav ul.nav_menu:hover{
+		display: block;
+		text-align: center;
+	}
+	body nav ul.nav_menu  > li{
+		float: none;
+		width: 100%;
+		padding: 10px;
+	}
+	#list{
+		font-size: 1.5em;
+		color: lightgreen;
+		font-weight: bold;
+	}
+}
+@media all and (min-width: 551px) and (max-width: 850px){
+	html{
+		width: 80%;
+		height: 100%;
+	}
+	.nav_menu{
+		height: 25px;
+		font-size: 1.25em;
+		padding: 0px;
+		margin: 0px;
+	}
+	#merchLinks{
+		display: none;
+	}
+	article#main{
+		clear: both;
+		width: 100%;
+		padding: 15px 15px 15px 0px;
+		float: none;
+	}
+	article#examples{
+		clear: both;
+		float: none;
+		width: 100%;
+		border: none;
+		border-top: 2px black solid;
+	}
+	article#reviews{
+		display: none;
+	}
 }
